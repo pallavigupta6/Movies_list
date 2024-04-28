@@ -9,13 +9,13 @@ const MovieCard = ({
 }) => {
   return (
     <div className="col-lg-4 mb-4">
-      <div className="card" style={{ minHeight: "1000px" }}>
+      <div className="card movie-card">
         <img
           src={imageUrl ?? placeholder}
           alt={title}
           className="card-img-top w-100"
         />
-        <div className="card-body">
+        <div className="card-body ps-3">
           <h5 className="card-title">{title}</h5>
           <div className="mb-2">
             <p className="card-text">Languages</p>
@@ -50,6 +50,7 @@ const MovieCard = ({
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 

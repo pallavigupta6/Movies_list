@@ -36,8 +36,8 @@ const MainLayout = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container">
-          <div className="col-12 d-flex justify-content-between">
-            <div className="col-3">
+          <div className="col-12 d-flex gap-2 justify-content-between flex-column flex-sm-row">
+            <div className="col-12 col-lg-3 col-md-3 col-sm-3">
               <select
                 className="form-select"
                 aria-label="Filter by language"
@@ -53,7 +53,7 @@ const MainLayout = () => {
                 ))}
               </select>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-lg-3 col-md-3 col-sm-3">
               <select
                 className="form-select"
                 aria-label="Filter by country"
@@ -69,7 +69,7 @@ const MainLayout = () => {
                 ))}
               </select>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-lg-3 col-md-3 col-sm-3">
               <select
                 className="form-select"
                 aria-label="Filter by genre"
@@ -89,7 +89,7 @@ const MainLayout = () => {
         </div>
       </nav>
 
-      <div className="container">
+      <div className="container mt-2">
         <div className="row">
           {filteredMovies.length > 0 ? (
             filteredMovies.map((movie) => (
