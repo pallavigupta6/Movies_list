@@ -67,9 +67,16 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 For questions or feedback, contact to pallavigupta.inbox98@gmail.com
 
-here are the Screenshot of UI
+mobile view
+![mobile](https://github.com/pallavigupta6/Movies_list/assets/99420570/304bf209-a8f1-41ac-8fb3-d6b2d0692959)
 
-for laptop view
+
+stackblitz:  https://stackblitz.com/~/github.com/pallavigupta6/Movies_list
+deployment link:https://662eab5b33f65a0008f031e2--movieslistition.netlify.app/
+
+
+
+
 
 
 
